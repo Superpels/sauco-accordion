@@ -1,0 +1,48 @@
+/* Overlays */
+
+.ui-accordion .ui-accordion-header {
+	display: block;
+	cursor: pointer;
+	position: relative;
+	margin: 2px 0 0 0;
+	padding: .5em .5em .5em .7em;
+	font-size: 100%;
+	text-transform: uppercase;
+}
+
+.ui-accordion .ui-accordion-content {
+	padding: 1em 2.2em;
+	border-top: 0;
+	overflow: auto;
+}
+
+.ui-accordion-header{
+	border-bottom: 1px solid #ccc;
+}
+
+.ui-accordion-header-active{
+	border-bottom: none;
+}
+
+.ui-accordion-content-active{
+	border-bottom: 1px solid #ccc;
+}
+
+/* Icons
+----------------------------------*/
+
+h3.ui-state-default:before {
+   font-family: FontAwesome;
+   content: "\f105";
+   display: inline-block;
+   padding-right: 3px;
+   vertical-align: middle;
+}
+
+h3.ui-state-active:before {
+   font-family: FontAwesome;
+   content: "\f107";
+   display: inline-block;
+   padding-right: 3px;
+   vertical-align: middle;
+}
