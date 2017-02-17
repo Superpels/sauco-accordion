@@ -2,10 +2,10 @@
 /**
 * Plugin Name: 	Acordeon
 * Plugin URI: 	https://sauco-web.com/
-* Description: 	Sencillo acordeon jQuery para elementos de la página. Pon el contenido del arcodeón entre los shortcodes [acordeoninicio], [acordeon] y [acordeonfin]
-* Version: 		1.0
-* Author: 		Antonio García-Saúco Iglesias
-* Author URI: 	https://sauco-web.com/
+* Description: 	Sencillo acordeon jQuery para elementos de la página. Pon el contenido del arcodeón entre los shortcodes [acordeoninicio seccion="Primera sección del acordeón"], [acordeon seccion="Otra sección del acordeón"] y [acordeonfin]
+* Version: 	1.0
+* Author: 	Antonio García-Saúco Iglesias
+* Author URI: 	https://sauco-web.com/disenador-web/
 */
 
 
