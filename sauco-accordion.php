@@ -59,7 +59,7 @@ function sauco_shortcode_inicio_accordeon( $titulo ) {
 		$titulo
 	);
 	
-	return '<div id="accordion"><h3>'. $titulo ['seccion'] . '</h3><div>';
+	return '<div class="sauco-acordeon"><h3>'. $titulo ['seccion'] . '</h3><div>';
 
 }
 add_shortcode( 'acordeoninicio', 'sauco_shortcode_inicio_accordeon' );
