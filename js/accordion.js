@@ -3,7 +3,7 @@
 /*----------------------------------------------------*/
 
 jQuery(document).ready(function($) {
-	$( "#accordion" ).accordion({
+	$( ".sauco-acordeon" ).accordion({
 		collapsible: true
 	});
 });
