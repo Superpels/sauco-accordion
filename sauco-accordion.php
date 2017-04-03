@@ -29,7 +29,7 @@ function sauco_web_load_scripts() {
 	wp_register_style('sauco_jquery_iu_css', plugin_dir_url( __FILE__ ) . 'css/accordion.css', '1.0');
 	
 	wp_register_script('sauco_jquery_iu_js', '//ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js', array('jquery') );
-	wp_register_script('sauco_accordion', plugin_dir_url( __FILE__ ) . 'js/accordion.js', array('jquery'), '1.0' );
+	wp_register_script('sauco_accordion', plugin_dir_url( __FILE__ ) . 'js/accordion.js', array('jquery'), '1.0', true );
 
 	
 	// Enqueue styles
